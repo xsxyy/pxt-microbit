@@ -6,21 +6,21 @@ Show a string to instruct the user how to play Magic 8! The magic 8 ball can onl
 
 
 ```blocks
-basic.showString("ASK A QUESTION")
+basic.showString("NOW ASK A QUESTION")
 ```
 
 Display the number 8.
 
 
 ```blocks
-basic.showString("ASK A QUESTION")
+basic.showString("NOW ASK A QUESTION")
 basic.showNumber(8)
 ```
 
 Create a condition for when the @boardname@ is shaken. Then use the block `clear screen` to clear the 8 from the display.
 
 ```blocks
-basic.showString("ASK A QUESTION")
+basic.showString("NOW ASK A QUESTION")
 basic.showNumber(8)
 input.onGesture(Gesture.Shake, () => {
     basic.clearScreen()
@@ -30,7 +30,7 @@ input.onGesture(Gesture.Shake, () => {
 Create a variable of type number called **randomNumber**. Set **randomNumber** to a random number with a limit of 2. Remember the random function in the math library, picks a random number from 0 to the limit, but not including the limit unless it is 0.
 
 ```blocks
-basic.showString("ASK A QUESTION")
+basic.showString("NOW ASK A QUESTION")
 basic.showNumber(8)
 input.onGesture(Gesture.Shake, () => {
     basic.clearScreen()
@@ -43,7 +43,7 @@ Create an if statement for the condition `if randomNumber = 2`. If **randomNumbe
 
 
 ```blocks
-basic.showString("ASK A QUESTION")
+basic.showString("NOW ASK A QUESTION")
 basic.showNumber(8)
 input.onGesture(Gesture.Shake, () =>  {
     basic.clearScreen();
@@ -59,7 +59,7 @@ input.onGesture(Gesture.Shake, () =>  {
 Create an if statement for the condition `if randomNumber = 1`. If randomNumber is 1, display the string 'No'
 
 ```blocks
-basic.showString("ASK A QUESTION")
+basic.showString("NOW ASK A QUESTION")
 basic.showNumber(8)
 input.onGesture(Gesture.Shake, () => {
     basic.clearScreen()
@@ -75,7 +75,7 @@ input.onGesture(Gesture.Shake, () => {
 If **randomNumber** is not 2 or 1, it must be 0. This is the else condition. If **randomNumber** is 0, display the string 'I don't know'
 
 ```blocks
-basic.showString("ASK A QUESTION")
+basic.showString("NOW ASK A QUESTION")
 basic.showNumber(8)
 input.onGesture(Gesture.Shake, () =>  {
     basic.clearScreen()
@@ -97,7 +97,7 @@ Display the number 8 so users know they can ask the magic 8 ball another questio
 
 
 ```blocks
-basic.showString("ASK A QUESTION")
+basic.showString("NOW ASK A QUESTION")
 basic.showNumber(8)
 input.onGesture(Gesture.Shake, () =>  {
     basic.clearScreen()
